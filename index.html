@@ -474,3 +474,242 @@
 </body>
 </html>
 >>>>>>> 891ae2ed5f9637897e48e1554d8fef1fad30c13f
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+    </style>
+  <link rel="stylesheet" crossorigin href="assets/index.css">
+</head>
+<body>
+    <nav class="bg-black text-white overflow-hidden fixed w-[100%] py-4 z-10">
+        <ul class="flex space-x-11 pl-6" style="font-family: 'Kanit', sans-serif;">
+            <li class=""><a href="/" class="hover:text-lg">HOME</a></li>
+            <li class=""><a href="#band" class="hover:text-lg">BAND</a></li>
+            <li class=""><a href="#tour" class="hover:text-lg">TOUR</a></li>
+            <li class=""><a href="#contact" class="hover:text-lg">CONTACT</a></li>
+            <div class="relative left-[68.25rem] top-1 cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                    <path fill="#ffffff"
+                        d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+                </svg>
+            </div>
+        </ul>
+    </nav>
+    <div class="slider ">
+        <div class="">
+            <img src="assests/png.jpg" alt="" class="w-[100%]">
+            <div class="text-center text-white relative -top-24">
+                <h1 class="text-2xl">Los Angeles</h1>
+                <p class="text-sm mt-3 font-semibold">We had the best time playing at Venice Beach!</p>
+            </div>
+        </div>
+    </div>
+    <div class="para flex flex-col" id="band">
+        <h1 class="text-4xl mt-14 text-center font-bold" style="font-family: 'Silkscreen', sans-serif;">THE BAND</h1>
+        <h3 class="text-lg text-center my-6 text-gray-500 italic">We love music</h3>
+        <p class="mx-80 text-justify mb-6">We have created a fictional band website. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div class="photo justify-around mx-80 mt-12 flex mb-32">
+        <div class="flex flex-col justify-center items-center">
+            <h1 class="text-lg mb-4 ">Name</h1>
+            <img src="assests/img.jpg" alt="" class="w-[70%] rounded-3xl">
+        </div>
+        <div class="flex flex-col justify-center items-center">
+            <h1 class="text-lg mb-4">Name</h1>
+            <img src="assests/img.jpg" alt="" class="w-[70%] rounded-3xl">
+        </div>
+        <div class="flex flex-col justify-center items-center">
+            <h1 class="text-lg mb-4">Name</h1>
+            <img src="assests/img.jpg" alt="" class="w-[70%] rounded-3xl">
+        </div>
+    </div>
+    <div class="tour bg-black pt-24 pb-14" id="tour">
+        <div class="detail flex flex-col justify-center items-center">
+            <h1 class="text-white mb-6 text-4xl" style="font-family: 'Silkscreen', sans-serif;">TOUR DATES</h1>
+            <p class="text-gray-400 text-lg italic">Remember to book your tickets!</p>
+        </div>
+        <div class="month bg-white mx-80 mt-12 rounded-lg">
+            <ul class="text-black pl-3">
+                <li class="py-2">September<span class="text-center py-[0.18rem] px-3 ml-7 text-white"
+                        style="background-color: #f44336;">Sold out</span></li>
+                <hr>
+                <li class="py-2">October<span class="text-center py-[0.18rem] px-3 ml-7 text-white"
+                        style="background-color: #f44336;">Sold out</span></li>
+                <hr>
+                <li class="py-2">November <span
+                        class="relative left-[47rem] rounded-full bg-black px-2 py-[0.09rem] text-white">3</span></li>
+            </ul>
+        </div>
+        <div class="item flex justify-center my-9">
+            <div class="cont w-[14rem] bg-white mx-3 rounded-lg">
+                <img src="assests/newyork.jpg" alt="" class="w-[14rem] rounded-lg">
+                <h1 class="my-3 font-bold px-4">New Your</h1>
+                <span class="px-4 my-3 text-sm text-gray-400">Fri 27 Nov 2016</span>
+                <p class="px-4 my-3 text-sm">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                <button
+                    class="mx-4 bg-black text-white mb-4 py-[0.40rem] px-3 cursor-pointer rounded-md hover:text-lg">Buy
+                    tickets</button>
+            </div>
+            <div class="cont w-[14rem] bg-white mx-3 rounded-lg">
+                <img src="assests/paris.jpg" alt="" class="w-[14rem] rounded-lg">
+                <h1 class="my-3 font-bold px-4">Paris</h1>
+                <span class="px-4 my-3 text-sm text-gray-400">Sat 28 Nov 2016</span>
+                <p class="px-4 my-3 text-sm">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                <button
+                    class="mx-4 bg-black text-white mb-4 py-[0.40rem] px-3 cursor-pointer rounded-md hover:text-lg">Buy
+                    tickets</button>
+            </div>
+            <div class="cont w-[14rem] bg-white mx-3 rounded-lg">
+                <img src="assests/sanfran.jpg" alt="" class="w-[14rem] rounded-lg">
+                <h1 class="my-3 font-bold px-4">San Francisco</h1>
+                <span class="px-4 my-3 text-sm text-gray-400">Sun 29 Nov 2016</span>
+                <p class="px-4 my-3 text-sm">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                <button
+                    class="mx-4 bg-black text-white mb-4 py-[0.40rem] px-3 cursor-pointer rounded-md hover:text-lg">Buy
+                    tickets</button>
+            </div>
+        </div>
+    </div>
+    <div class="contact mt-16" id="contact">
+        <div>
+            <h1 class="text-center text-4xl py-4" style="font-family: 'Silkscreen', sans-serif;">CONTACT</h1>
+            <p class="text-center text-lg italic pb-11 text-gray-400">Fan? Drop a note!</p>
+        </div>
+        <div class="flex justify-center space-x-36">
+            <div class="con flex flex-col ">
+                <span class="flex font-semibold my-[0.4rem] text-lg text-center"><svg class="mr-5 mt-1"
+                        xmlns="http://www.w3.org/2000/svg" height="20" width="16" viewBox="0 0 384 512">
+                        <path
+                            d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
+                    </svg>Chicago, US</span>
+                <span class="flex font-semibold my-[0.4rem] text-lg"><svg class="mr-5 mt-1"
+                        xmlns="http://www.w3.org/2000/svg" height="20" width="18" viewBox="0 0 512 512">
+                        <path
+                            d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" />
+                    </svg>Phone: +00 151515</span>
+                <span class="flex font-semibold my-[0.4rem] text-lg"><svg class="mr-5 mt-1"
+                        xmlns="http://www.w3.org/2000/svg" height="22" width="20" viewBox="0 0 512 512">
+                        <path
+                            d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
+                    </svg>Email: mail@mail.com</span>
+            </div>
+            <form action="" class="">
+                <input type="text" name="name" id="" class="w-40 h-10 border-2 mx-1 border-black p-1"
+                    placeholder="Name">
+                <input type="email" name="email" id="" class="w-40 h-10 border-2 mx-1 border-black p-1"
+                    placeholder="Email"><br>
+                <input type="text" name="message" id="" class="w-[20.75rem] h-10 border-2 mx-1 my-2 p-1 border-black"
+                    placeholder="Message"><br>
+                <button class="text-white bg-black py-1 px-3 mx-1 rounded-md cursor-pointer hover:text-lg">SEND</button>
+            </form>
+        </div>
+    </div>
+    <div class="map mt-36">
+        <img src="assests/map.jpg" alt="" width="100%">
+    </div>
+    <footer class="flex justify-center items-center my-14">
+        <a href="https://www.facebook.com" target="_blank"><svg class="w-10 h-10 hover:w-12 hover:h-12" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100"
+            height="100" viewBox="0 0 48 48">
+            <path fill="#3F51B5"
+                d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z">
+            </path>
+            <path fill="#FFF"
+                d="M34.368,25H31v13h-5V25h-3v-4h3v-2.41c0.002-3.508,1.459-5.59,5.592-5.59H35v4h-2.287C31.104,17,31,17.6,31,18.723V21h4L34.368,25z">
+            </path>
+        </svg></a>
+        <a href="https://www.instagram.com" target="_blank"><svg class="w-10 h-10 hover:w-12 hover:h-12" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100"
+            height="100" viewBox="0 0 48 48">
+            <radialGradient id="yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1" cx="19.38" cy="42.035" r="44.899"
+                gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#fd5"></stop>
+                <stop offset=".328" stop-color="#ff543f"></stop>
+                <stop offset=".348" stop-color="#fc5245"></stop>
+                <stop offset=".504" stop-color="#e64771"></stop>
+                <stop offset=".643" stop-color="#d53e91"></stop>
+                <stop offset=".761" stop-color="#cc39a4"></stop>
+                <stop offset=".841" stop-color="#c837ab"></stop>
+            </radialGradient>
+            <path fill="url(#yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1)"
+                d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z">
+            </path>
+            <radialGradient id="yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2" cx="11.786" cy="5.54" r="29.813"
+                gradientTransform="matrix(1 0 0 .6663 0 1.849)" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#4168c9"></stop>
+                <stop offset=".999" stop-color="#4168c9" stop-opacity="0"></stop>
+            </radialGradient>
+            <path fill="url(#yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2)"
+                d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z">
+            </path>
+            <path fill="#fff"
+                d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z">
+            </path>
+            <circle cx="31.5" cy="16.5" r="1.5" fill="#fff"></circle>
+            <path fill="#fff"
+                d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z">
+            </path>
+        </svg></a>
+        <a href="https://snapchat.com/" target="_blank"><svg class="w-10 h-10 hover:w-12 hover:h-12" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100"
+            height="100" viewBox="0 0 48 48">
+            <linearGradient id="s9~sBE_MLsUutFtX7i6Pra_KrtKMa6Fduil_gr1" x1="20.601" x2="27.399" y1="4.721" y2="43.279"
+                gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#fede00"></stop>
+                <stop offset="1" stop-color="#ffd000"></stop>
+            </linearGradient>
+            <path fill="url(#s9~sBE_MLsUutFtX7i6Pra_KrtKMa6Fduil_gr1)"
+                d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z">
+            </path>
+            <path
+                d="M14.613,20.505c-0.168,0-0.342,0.039-0.503,0.12c-0.265,0.132-0.463,0.36-0.557,0.641	c-0.151,0.453,0.004,0.95,0.386,1.236l3.676,2.296l-0.143,0.382c-0.066,0.179-1.67,4.403-4.703,6.057	c-0.161,0.088-0.264,0.206-0.274,0.317c-0.011,0.112,0.078,0.213,0.155,0.277c0.656,0.549,1.334,0.939,2.685,1.187l0.409,0.075	l0.001,0.416c0.002,0.608,0.195,1.251,0.375,1.251c0.893,0,2.751,0,4.608,0.928c1.03,0.515,2.472,0.823,3.271,0.823	s2.241-0.308,3.271-0.823c1.856-0.928,3.715-0.928,4.608-0.928c0.181,0,0.374-0.643,0.375-1.251l0.001-0.416l0.409-0.075	c1.351-0.247,2.029-0.637,2.686-1.187c0.077-0.064,0.166-0.165,0.155-0.277c-0.011-0.111-0.114-0.229-0.274-0.317	c-3.032-1.654-4.636-5.878-4.703-6.057l-0.143-0.382l3.71-2.32c0.347-0.263,0.502-0.759,0.351-1.212	c-0.093-0.281-0.291-0.508-0.556-0.641c-0.264-0.133-0.564-0.153-0.846-0.06l-2.546,1.042V18.1c0-3.636-2.914-6.594-6.496-6.594	c-3.586,0-6.5,2.958-6.5,6.594v3.508l-2.576-1.053C14.828,20.522,14.722,20.505,14.613,20.505z"
+                opacity=".07"></path>
+            <path fill="none" stroke="#1d1d1b" stroke-width="2"
+                d="M24,37.011c0.868,0,2.387-0.322,3.494-0.875 c1.751-0.875,3.509-0.875,4.384-0.875c0.875,0,0.875-1.751,0.875-1.751c1.391-0.254,2.156-0.658,2.917-1.295 c0.531-0.445,0.407-1.085-0.201-1.416c-2.903-1.583-4.474-5.793-4.474-5.793l3.364-2.104c0.554-0.415,0.779-1.138,0.561-1.795l0,0 c-0.281-0.843-1.193-1.298-2.035-1.016l-1.887,0.771V18.1c0-3.864-3.132-7.094-6.996-7.094h0h-0.004h0 c-3.864,0-6.996,3.23-6.996,7.094v2.763l-1.887-0.771c-0.843-0.282-1.754,0.173-2.035,1.016l0,0 c-0.219,0.656,0.007,1.379,0.561,1.795l3.364,2.104c0,0-1.57,4.209-4.474,5.793c-0.608,0.331-0.732,0.972-0.201,1.416 c0.76,0.637,1.526,1.041,2.917,1.295c0,0,0,1.751,0.875,1.751c0.875,0,2.633,0,4.384,0.875C21.613,36.689,23.132,37.011,24,37.011"
+                opacity=".05"></path>
+            <path fill="none" stroke="#000"
+                d="M24,37.011c0.868,0,2.387-0.322,3.494-0.875 c1.751-0.875,3.509-0.875,4.384-0.875c0.875,0,0.875-1.751,0.875-1.751c1.391-0.254,2.156-0.658,2.917-1.295 c0.531-0.445,0.407-1.085-0.201-1.416c-2.903-1.583-4.474-5.793-4.474-5.793l3.364-2.104c0.554-0.415,0.779-1.138,0.561-1.795l0,0 c-0.281-0.843-1.193-1.298-2.035-1.016l-1.887,0.771V18.1c0-3.864-3.132-7.094-6.996-7.094h0h-0.004h0 c-3.864,0-6.996,3.23-6.996,7.094v2.763l-1.887-0.771c-0.843-0.282-1.754,0.173-2.035,1.016l0,0 c-0.219,0.656,0.007,1.379,0.561,1.795l3.364,2.104c0,0-1.57,4.209-4.474,5.793c-0.608,0.331-0.732,0.972-0.201,1.416 c0.76,0.637,1.526,1.041,2.917,1.295c0,0,0,1.751,0.875,1.751c0.875,0,2.633,0,4.384,0.875C21.613,36.689,23.132,37.011,24,37.011"
+                opacity=".07"></path>
+            <path fill="#fff"
+                d="M24,37.011c0.868,0,2.387-0.322,3.494-0.875c1.751-0.875,3.509-0.875,4.384-0.875	c0.875,0,0.875-1.751,0.875-1.751c1.391-0.254,2.156-0.658,2.917-1.295c0.531-0.445,0.407-1.085-0.201-1.416	c-2.903-1.583-4.474-5.793-4.474-5.793l3.364-2.104c0.554-0.415,0.779-1.138,0.561-1.795l0,0c-0.281-0.843-1.193-1.298-2.035-1.016	l-1.887,0.771V18.1c0-3.864-3.132-7.094-6.996-7.094h0h-0.004h0c-3.864,0-6.996,3.23-6.996,7.094v2.763l-1.887-0.771	c-0.843-0.282-1.754,0.173-2.035,1.016l0,0c-0.219,0.656,0.007,1.379,0.561,1.795l3.364,2.104c0,0-1.57,4.209-4.474,5.793	c-0.608,0.331-0.732,0.972-0.201,1.416c0.76,0.637,1.526,1.041,2.917,1.295c0,0,0,1.751,0.875,1.751c0.875,0,2.633,0,4.384,0.875	C21.613,36.689,23.132,37.011,24,37.011">
+            </path>
+        </svg></a>
+        <a href="https://in.pinterest.com/" target="_blank"><svg class="w-10 h-10 hover:w-12 hover:h-12" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100"
+            height="100" viewBox="0 0 48 48">
+            <circle cx="24" cy="24" r="20" fill="#E60023"></circle>
+            <path fill="#FFF"
+                d="M24.4439087,11.4161377c-8.6323242,0-13.2153931,5.7946167-13.2153931,12.1030884	c0,2.9338379,1.5615234,6.5853882,4.0599976,7.7484131c0.378418,0.1762085,0.581543,0.1000366,0.668457-0.2669067	c0.0668945-0.2784424,0.4038086-1.6369019,0.5553589-2.2684326c0.0484619-0.2015381,0.0246582-0.3746338-0.1384277-0.5731201	c-0.8269653-1.0030518-1.4884644-2.8461304-1.4884644-4.5645752c0-4.4115601,3.3399658-8.6799927,9.0299683-8.6799927	c4.9130859,0,8.3530884,3.3484497,8.3530884,8.1369019c0,5.4099731-2.7322998,9.1584473-6.2869263,9.1584473	c-1.9630737,0-3.4330444-1.6238403-2.9615479-3.6153564c0.5654297-2.3769531,1.6569214-4.9415283,1.6569214-6.6584473	c0-1.5354004-0.8230591-2.8169556-2.5299683-2.8169556c-2.006958,0-3.6184692,2.0753784-3.6184692,4.8569336	c0,1.7700195,0.5984497,2.9684448,0.5984497,2.9684448s-1.9822998,8.3815308-2.3453979,9.9415283	c-0.4019775,1.72229-0.2453003,4.1416016-0.0713501,5.7233887l0,0c0.4511108,0.1768799,0.9024048,0.3537598,1.3687744,0.4981079l0,0	c0.8168945-1.3278198,2.0349731-3.5056763,2.4864502-5.2422485c0.2438354-0.9361572,1.2468872-4.7546387,1.2468872-4.7546387	c0.6515503,1.2438965,2.5561523,2.296936,4.5831299,2.296936c6.0314941,0,10.378418-5.546936,10.378418-12.4400024	C36.7738647,16.3591919,31.3823242,11.4161377,24.4439087,11.4161377z">
+            </path>
+        </svg></a>
+        <a href="https://twitter.com/" target="_blank"><svg class="w-10 h-10 hover:w-12 hover:h-12" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100"
+            height="100" viewBox="0 0 48 48">
+            <path fill="#03A9F4"
+                d="M42,12.429c-1.323,0.586-2.746,0.977-4.247,1.162c1.526-0.906,2.7-2.351,3.251-4.058c-1.428,0.837-3.01,1.452-4.693,1.776C34.967,9.884,33.05,9,30.926,9c-4.08,0-7.387,3.278-7.387,7.32c0,0.572,0.067,1.129,0.193,1.67c-6.138-0.308-11.582-3.226-15.224-7.654c-0.64,1.082-1,2.349-1,3.686c0,2.541,1.301,4.778,3.285,6.096c-1.211-0.037-2.351-0.374-3.349-0.914c0,0.022,0,0.055,0,0.086c0,3.551,2.547,6.508,5.923,7.181c-0.617,0.169-1.269,0.263-1.941,0.263c-0.477,0-0.942-0.054-1.392-0.135c0.94,2.902,3.667,5.023,6.898,5.086c-2.528,1.96-5.712,3.134-9.174,3.134c-0.598,0-1.183-0.034-1.761-0.104C9.268,36.786,13.152,38,17.321,38c13.585,0,21.017-11.156,21.017-20.834c0-0.317-0.01-0.633-0.025-0.945C39.763,15.197,41.013,13.905,42,12.429">
+            </path></svg></a>
+        <a href="https://in.linkedin.com/" target="_blank">
+        <svg class="w-10 h-10 hover:w-12 hover:h-12" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100"
+            height="100" viewBox="0 0 48 48">
+            <path fill="#0288D1"
+                d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z">
+            </path>
+            <path fill="#FFF"
+                d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z">
+            </path>
+        </svg></a>
+    </footer>
+</body>
+</html>
+>>>>>>> 27a56944616821f4c7725357439a0d143280d176
